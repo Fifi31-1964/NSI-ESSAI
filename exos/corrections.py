@@ -14,5 +14,5 @@ exo_add = ExerciseFunction(
     add,
     inputs_add,
     layout='pprint',
-    layout_args=(40, 25, 25),
+    layout_args=(40, 40, 40),
 )
