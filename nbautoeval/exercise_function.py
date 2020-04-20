@@ -226,7 +226,7 @@ class ExerciseFunction:                                 # pylint: disable=r0902
                 cells=[TableCell(dataset,
                                  layout=self.layout, width=col1),
                        TableCell(expected, layout=self.layout, width=col2,
-                                 style=left_text_style+left_border_thick_style)
+                                 style=center_text_style+left_border_thick_style)
                        ]).html()
 
         html += table.footer()
