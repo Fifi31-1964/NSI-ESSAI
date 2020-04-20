@@ -168,13 +168,13 @@ class ExerciseFunction:                                 # pylint: disable=r0902
                 style=style + bottom_border_style,
                 cells=[TableCell(dataset, layout=self.layout, width=col1),
                        TableCell(expected, layout=self.layout, width=col2,
-                                 style=left_text_style
+                                 style=center_text_style
                                  +left_border_thick_style),
                        TableCell(student_result, layout=self.layout, width=col3,
-                                 style=left_text_style
+                                 style=center_text_style
                                  +left_border_thin_style),
                        TableCell(CellLegend(message),
-                                 style=left_border_thick_style)]
+                                 style=center_border_thick_style)]
             ).html()
 
         log_correction(self.name, overall)
